@@ -11,6 +11,7 @@
 .navbar{
     background-color: white;
 }
+
 .cabecera__lista li a{
     text-decoration: none;
     color: #F9A2A9;
@@ -25,4 +26,68 @@
 .cabecera__lista__item{
     font-family: Arial, sans-serif;
     padding: 10px 20px;
+}
+
+.info{
+    width: 300px;
+    height: 380px;
+    background-color: #ECECEC;
+    padding: 10px;
+    margin: 0px 100px;
+
+}
+
+.container{
+    margin: 20px;
+}
+
+.info img{
+    max-width: 98%;
+    max-height: auto;
+}
+
+.info div p{
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    justify-content: justify;
+    font-weight: bold;
+
+}
+
+
+.galeria {
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    display: flex;
+
+}
+
+.galeria img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.galeria img:hover{
+    filter: brightness(60%);
+    
+} 
+
+.container-fluid-footer{
+    width: 100%;
+    height: fit-content;
+    background-color: #ECECEC;
+    clear: both;
+       margin-top: 10px;
+}
+
+.rs{
+    margin: 5px 10px;
+    width: 40px;
+
+}
+
+.rs:hover{
+    transform: scale(1.5);
 }
