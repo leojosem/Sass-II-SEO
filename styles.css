@@ -115,6 +115,28 @@
     height: fit-content;
 }
 
-.card-img-bottom{
+.card-productos{
+    width: 70%;
+    height: fit-content;
+    background-color: #ECECEC;
+}
+.col{
+    width: auto;
 
+
+}
+.card-img-top{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    margin: 30px;
+    border: #F9A2A9 5px solid;
+}
+
+.card-title{
+    font-size: 30px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color: #F9A2A9;
 }
