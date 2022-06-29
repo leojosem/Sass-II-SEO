@@ -91,3 +91,24 @@
 .rs:hover{
     transform: scale(1.5);
 }
+
+.card{
+    width: 50%;
+    align-items: center;
+}
+
+.card-text{
+    text-align: justify;
+}
+
+
+.repostera{
+    border-radius: 50%;
+    width: auto;
+    height: 100%;
+    justify-content: center;
+}
+
+.card-img-bottom{
+
+}
