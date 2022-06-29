@@ -8,8 +8,9 @@
     padding-left: 20px;
 }
 
-
-
+.navbar{
+    background-color: white;
+}
 .cabecera__lista li a{
     text-decoration: none;
     color: #F9A2A9;
