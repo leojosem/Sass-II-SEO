@@ -78,8 +78,7 @@
     width: 100%;
     height: fit-content;
     background-color: #ECECEC;
-    clear: both;
-       margin-top: 10px;
+    margin-top: 10px;
 }
 
 .rs{
@@ -94,19 +93,26 @@
 
 .card{
     width: 50%;
-    align-items: center;
+    background-color: #ECECEC;
+    
 }
 
-.card-text{
+.card-text1{
+    text-align: justify;
+    height: fit-content;
+}
+
+.card-text2{
     text-align: justify;
 }
 
 
 .repostera{
     border-radius: 50%;
-    width: auto;
-    height: 100%;
+    width: 50%;
+    height: 50%;
     justify-content: center;
+    height: fit-content;
 }
 
 .card-img-bottom{
