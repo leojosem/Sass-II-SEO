@@ -91,6 +91,10 @@
     transform: scale(1.5);
 }
 
+@media only screen and (min-width: 480px){
+
+}
+
 .card{
     width: 50%;
     background-color: #ECECEC;
@@ -100,6 +104,41 @@
 .card-text1{
     text-align: justify;
     height: fit-content;
+}
+
+@media only screen and (max-width: 480px){
+    .card{
+        width: 90%;
+
+    }
+
+    .card-body{
+        display: flex;
+        flex-direction: column;
+    }
+
+@media only screen and (orientation: landscape) and (max-width: 480px) {
+    .card{
+        width: 90%;
+    }
+
+    .card-body{
+        display: flex;
+        flex-direction: column;
+    }
+
+}   
+
+
+@media only screen and (min-width: 480px) and (max-width: 800px) {
+    .card{
+        width: 90%;
+    }
+
+    .card-body{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .card-text2{
