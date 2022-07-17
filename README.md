@@ -1,5 +1,5 @@
-# Bootstrap
-Desafio Bootstrap
+# SASS II + SEO
+Desafio SASS II + SEO
 <h1 align="center">Hi 👋, I'm Leonardo Madueño</h1>
 <h3 align="center">A passionate libra guy.</h3>
 
