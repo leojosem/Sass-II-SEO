@@ -1,0 +1,32 @@
+@import '../base/mapas';
+@import '../base/extends';
+@import '../base/mixins';
+
+
+.card-productos{
+    @include tarjeta(70%);
+    height: fit-content;
+    background-color: #ECECEC;
+}
+
+.col{
+    width: auto;
+
+}
+
+.card-img-top{
+    @extend %galeriapys;
+}
+
+.cliente{
+    border: map-get($map: $cliente, $key: border);
+}
+
+
+.card-title{
+    font-size: 30px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color: #F9A2A9;
+}

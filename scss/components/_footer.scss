@@ -1,0 +1,21 @@
+@import '../base/listas.scss';
+
+footer{
+    .container-fluid-footer{
+        width: 100%;
+        height: fit-content;
+        background-color: nth($colores, 1);
+        margin-top: 10px;
+        .logo{
+            width: 150px;
+            padding-left: 20px;
+        }
+        .rs{
+            margin: 5px 10px;
+            width: 40px;
+            .rs:hover{
+                transform: scale(1.5);
+            }
+        }
+    }
+}
