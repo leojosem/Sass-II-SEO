@@ -1,0 +1,19 @@
+{
+  "name": "sass-ii",
+  "version": "1.0.0",
+  "description": "Desafio Bootstrap\r <h1 align=\"center\">Hi 👋, I'm Leonardo Madueño</h1>\r <h3 align=\"center\">A passionate libra guy.</h3>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leojosem/Mediaqueries.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leojosem/Mediaqueries/issues"
+  },
+  "homepage": "https://github.com/leojosem/Mediaqueries#readme"
+}
