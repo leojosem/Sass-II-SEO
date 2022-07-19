@@ -16,9 +16,9 @@
     @extend %galeriapys;
 }
 
-.cliente{
-    border: map-get($map: $cliente, $key: border-cliente);
-}
+/* .cliente{
+    border: 2px #F9A2A9 solid;
+} */
 
 .card-title{
     font-size: 30px;
