@@ -7,7 +7,7 @@ main{
         .card-productos{
             @include tarjeta(70%);
             height: fit-content;
-            background-color: #ECECEC;
+            background-color: nth($colores, 1);
             .card-productos-principal{
                 .col{
                     width: auto;
@@ -19,7 +19,7 @@ main{
                         font-family: Arial, sans-serif;
                         text-align: center;
                         font-weight: bold;
-                        color: #F9A2A9;
+                        color: nth($colores, 3);
                     }
                 
                 }
