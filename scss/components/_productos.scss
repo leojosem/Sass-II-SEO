@@ -2,27 +2,45 @@
 @import '../base/mixins';
 @import '../base/listas';
 
-main{
-    section{
-        .card-productos{
-            @include tarjeta(70%);
-            height: fit-content;
-            background-color: nth($colores, 1);
-            .card-productos-principal{
-                .col{
-                    width: auto;
-                    .card-img-top{
-                        @extend %galeriapys;
-                    }
-                    .card-title{
-                        font-size: 30px;
-                        font-family: Arial, sans-serif;
-                        text-align: center;
-                        font-weight: bold;
-                        color: nth($colores, 3);
-                    }
-                
-                }
+section{
+    .card{
+        width: 50%;
+        background-color: nth($colores, 1);
+
+        @media only screen and (max-width: 480px){
+                width: 90%;
+            }
+        @media only screen and (orientation: landscape) and (max-width: 480px) {
+                width: 90%;
+            }    
+
+        .card-body{
+            .repostera{
+                border-radius: 50%;
+                width: 50%;
+                height: 50%;
+                justify-content: center;
+                height: fit-content;
+
+            }
+            .card-text1{
+                text-align: justify;
+                height: fit-content;
+
+            }
+            .card-text2{
+                text-align: justify;
+            }
+            .card-img-bottom{
+                width: 350px;
+                height: 350px;
+                border-radius: 50%;
+                margin: 30px;
+                border: nth($colores, 3) 5px solid;
+            }
+            @media only screen and (orientation: landscape) and (max-width: 480px) {
+                display: flex;
+                flex-direction: column;
             }
         }
     }

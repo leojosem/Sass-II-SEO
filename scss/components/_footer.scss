@@ -13,11 +13,14 @@ footer{
             padding-left: 20px;
         }
         .rs{
+            justify-content: end;
             margin: 5px 10px;
             width: 40px;
             .rs:hover{
                 transform: scale(1.5);
             }
+        @media only screen and (max-width: 480px){
+            justify-content: end;   
         }
     }
 }
