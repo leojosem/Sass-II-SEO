@@ -1,33 +1,37 @@
+@import '../base/extends';
+@import '../base/mixins';
+@import '../base/listas';
 
 .card-productos{
     width: 70%;
     height: fit-content;
     background-color: #ECECEC;
-}
-
-h1{
-    color: #F9A2A9;
-margin-bottom: 2%;
-font-size: 100px;
-}
-
-.form{
-width: 60%;
-height: fit-content;
-margin: 30px 0;
-font-family: Arial, sans-serif;
-border: 2px white solid;
-background-color: #F9A2A9;
-border-radius: 10px;
-}
-
-.form-control{
-width: 95%;
-height: 30px;
-border-radius: 4px;
-background-color: #F9A2A9;
-border: 1px white solid;
-color: #FFFFFF;
-margin: 2%;
-font-size: 20px;
+    div{
+        h1{
+            color: #F9A2A9;
+            margin-bottom: 2%;
+            font-size: 100px;
+        }
+    }
+    div{
+        .form{
+            width: 60%;
+            height: fit-content;
+            margin: 30px 0;
+            font-family: Arial, sans-serif;
+            border: 2px white solid;
+            background-color: #F9A2A9;
+            border-radius: 10px;
+            .form-control{
+                width: 95%;
+                height: 30px;
+                border-radius: 4px;
+                background-color: #F9A2A9;
+                border: 1px white solid;
+                color: #FFFFFF;
+                margin: 2%;
+                font-size: 20px;
+            }
+        }
+    }
 }
